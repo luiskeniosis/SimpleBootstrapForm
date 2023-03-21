@@ -1,0 +1,110 @@
+.container {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+}
+.well-user-info {
+  border: 2px solid #4682b4 !important;
+  position: relative;
+  box-sizing: border-box;
+}
+.well-user-info:before {
+  content: "User:";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  padding: 2px 25px;
+  background-color: #4682b4;
+  color: white;
+  font-weight: bold;
+  width: calc(100% + 4px);
+  transform: translateX(-2px);
+  border-radius: 5px 5px 0 0;
+}
+.well-user-info .control-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.well-contact {
+  border: 2px solid #4682b4 !important;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.well-contact:before {
+  content: "Contact:";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  padding: 2px 25px;
+  background-color: #4682b4;
+  color: white;
+  font-weight: bold;
+  width: calc(100% + 4px);
+  transform: translateX(-2px);
+  border-radius: 5px 5px 0 0;
+}
+.well-booking {
+  border: 2px solid #4682b4 !important;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.well-booking:before {
+  content: "Schedule:";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  padding: 2px 25px;
+  background-color: #4682b4;
+  color: white;
+  font-weight: bold;
+  width: calc(100% + 4px);
+  transform: translateX(-2px);
+  border-radius: 5px 5px 0 0;
+}
+.booking-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.booking-date-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.well-other {
+  border: 2px solid #4682b4 !important;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.well-other:before {
+  content: "Other:";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  padding: 2px 25px;
+  background-color: #4682b4;
+  color: white;
+  font-weight: bold;
+  width: calc(100% + 4px);
+  transform: translateX(-2px);
+  border-radius: 5px 5px 0 0;
+}
+.well-other .form-label {
+  padding: 3px 0px;
+}
+.buttons {
+  float: right;
+  padding: 0px 395px;
+}
+.empty-field {
+  background-color: #ffcccc !important;
+}
